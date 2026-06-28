@@ -8,7 +8,7 @@ A high-performance desktop application dashboard layout cloned from the iconic *
 
 Watch the step-by-step showcase and code breakdown directly on YouTube:
 
-[![Watch the video](https://youtu.be/8gMxxIJXF-I)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+[![Watch the video](https://youtu.be/8gMxxIJXF-I)](https://www.youtube.com/watch?v=8gMxxIJXF-I)
 
 ---
 
