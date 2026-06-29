@@ -1,4 +1,5 @@
-﻿using KimTools.WinForms;
+﻿using System;
+using KimTools.WinForms;
 
 namespace KimTools26Tailwind
 {
@@ -11,7 +12,9 @@ namespace KimTools26Tailwind
         /// </summary>
         /// <param name="sender">The source of the event.</param>
         /// <param name="e">The <see cref="System.EventArgs"/> instance containing the event data.</param>
-        private void ktRadioButtonLightMode_CheckedChanged(object sender, System.EventArgs e) 
+        private void ktRadioButtonLightMode_CheckedChanged(object sender, System.EventArgs e)
             => KtColor.LightMode(ktRadioButtonLightMode.Checked);
+
+
     }
 }

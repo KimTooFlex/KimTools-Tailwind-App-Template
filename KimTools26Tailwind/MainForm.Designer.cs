@@ -39,6 +39,12 @@
             this.ktRadioButton2 = new KimTools.WinForms.KtRadioButton();
             this.ktRadioButton1 = new KimTools.WinForms.KtRadioButton();
             this.ktPanelFooter = new KimTools.WinForms.KtPanel();
+            this.ktPanel7 = new KimTools.WinForms.KtPanel();
+            this.ktRadioButtonLightMode = new KimTools.WinForms.KtRadioButton();
+            this.ktRadioButtonDarkMode = new KimTools.WinForms.KtRadioButton();
+            this.ktPanel1 = new KimTools.WinForms.KtPanel();
+            this.ktLabel1 = new KimTools.WinForms.KtLabel();
+            this.ktPictureBox2 = new KimTools.WinForms.KtPictureBox();
             this.ktPanelHeader = new KimTools.WinForms.KtPanel();
             this.ktPictureBox1 = new KimTools.WinForms.KtPictureBox();
             this.ktDivider1 = new KimTools.WinForms.KtDivider();
@@ -49,22 +55,16 @@
             this.ktPanel5 = new KimTools.WinForms.KtPanel();
             this.ktPanel4 = new KimTools.WinForms.KtPanel();
             this.ktPanelContent = new KimTools.WinForms.KtPanel();
-            this.ktPanel1 = new KimTools.WinForms.KtPanel();
-            this.ktPictureBox2 = new KimTools.WinForms.KtPictureBox();
-            this.ktLabel1 = new KimTools.WinForms.KtLabel();
-            this.ktPanel7 = new KimTools.WinForms.KtPanel();
-            this.ktRadioButtonLightMode = new KimTools.WinForms.KtRadioButton();
-            this.ktRadioButtonDarkMode = new KimTools.WinForms.KtRadioButton();
             this.ktPanelSidebar.SuspendLayout();
             this.ktPanelMenu.SuspendLayout();
             this.ktPanelFooter.SuspendLayout();
+            this.ktPanel7.SuspendLayout();
+            this.ktPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ktPictureBox2)).BeginInit();
             this.ktPanelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ktPictureBox1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.ktPanelContent.SuspendLayout();
-            this.ktPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ktPictureBox2)).BeginInit();
-            this.ktPanel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // ktPanelSidebar
@@ -312,6 +312,134 @@
             this.ktPanelFooter.Size = new System.Drawing.Size(199, 128);
             this.ktPanelFooter.TabIndex = 4;
             // 
+            // ktPanel7
+            // 
+            this.ktPanel7.Background = new KimTools.WinForms.KtBrushSolid(KimTools.WinForms.KtColor.BASE_2);
+            this.ktPanel7.Border = new KimTools.WinForms.KtBrushGradient(KimTools.WinForms.KtColor.BASE_1, KimTools.WinForms.KtColor.BASE_3);
+            this.ktPanel7.BorderRadius = 0.999F;
+            this.ktPanel7.BorderStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.ktPanel7.BorderWidth = 1.5F;
+            this.ktPanel7.Controls.Add(this.ktRadioButtonLightMode);
+            this.ktPanel7.Controls.Add(this.ktRadioButtonDarkMode);
+            this.ktPanel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ktPanel7.Foreground = KimTools.WinForms.KtColor.Empty;
+            this.ktPanel7.Location = new System.Drawing.Point(10, 10);
+            this.ktPanel7.Name = "ktPanel7";
+            this.ktPanel7.Padding = new System.Windows.Forms.Padding(8, 5, 8, 5);
+            this.ktPanel7.PatternColor = KimTools.WinForms.KtColor.Empty;
+            this.ktPanel7.Size = new System.Drawing.Size(179, 52);
+            this.ktPanel7.TabIndex = 5;
+            // 
+            // ktRadioButtonLightMode
+            // 
+            this.ktRadioButtonLightMode.BackColor = System.Drawing.Color.Transparent;
+            this.ktRadioButtonLightMode.Background_Checked = new KimTools.WinForms.KtBrushSolid(KimTools.WinForms.KtColor.BASE_3);
+            this.ktRadioButtonLightMode.Border = new KimTools.WinForms.KtBrushSolid(System.Drawing.Color.Transparent);
+            this.ktRadioButtonLightMode.Border_Checked = new KimTools.WinForms.KtBrushSolid(System.Drawing.Color.Transparent);
+            this.ktRadioButtonLightMode.BorderEdges.BottomLeft = false;
+            this.ktRadioButtonLightMode.BorderEdges.TopLeft = false;
+            this.ktRadioButtonLightMode.BorderRadius = 0.999F;
+            this.ktRadioButtonLightMode.BorderStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.ktRadioButtonLightMode.BorderStyle_Checked = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.ktRadioButtonLightMode.BorderWidth = 2F;
+            this.ktRadioButtonLightMode.Dock = System.Windows.Forms.DockStyle.Right;
+            this.ktRadioButtonLightMode.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
+            this.ktRadioButtonLightMode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(147)))), ((int)(((byte)(185)))));
+            this.ktRadioButtonLightMode.Foreground = new KimTools.WinForms.KtColor("$Content", 0.4F, 100);
+            this.ktRadioButtonLightMode.Foreground_Checked = KimTools.WinForms.KtColor.CONTENT;
+            this.ktRadioButtonLightMode.Icon = "hero.outline.sun";
+            this.ktRadioButtonLightMode.Icon_Checked = "hero.outline.sun";
+            this.ktRadioButtonLightMode.IconColor = KimTools.WinForms.KtColor.Empty;
+            this.ktRadioButtonLightMode.IconColor_Checked = KimTools.WinForms.KtColor.Empty;
+            this.ktRadioButtonLightMode.IconSize = 16;
+            this.ktRadioButtonLightMode.IconStroke = 2.5D;
+            this.ktRadioButtonLightMode.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ktRadioButtonLightMode.Location = new System.Drawing.Point(94, 5);
+            this.ktRadioButtonLightMode.Name = "ktRadioButtonLightMode";
+            this.ktRadioButtonLightMode.Size = new System.Drawing.Size(77, 42);
+            this.ktRadioButtonLightMode.TabIndex = 8;
+            this.ktRadioButtonLightMode.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ktRadioButtonLightMode.UseVisualStyleBackColor = false;
+            this.ktRadioButtonLightMode.CheckedChanged += new System.EventHandler(this.ktRadioButtonLightMode_CheckedChanged);
+            // 
+            // ktRadioButtonDarkMode
+            // 
+            this.ktRadioButtonDarkMode.BackColor = System.Drawing.Color.Transparent;
+            this.ktRadioButtonDarkMode.Background_Checked = new KimTools.WinForms.KtBrushSolid(KimTools.WinForms.KtColor.BASE_3);
+            this.ktRadioButtonDarkMode.Border = new KimTools.WinForms.KtBrushSolid(System.Drawing.Color.Transparent);
+            this.ktRadioButtonDarkMode.Border_Checked = new KimTools.WinForms.KtBrushSolid(System.Drawing.Color.Transparent);
+            this.ktRadioButtonDarkMode.BorderEdges.BottomRight = false;
+            this.ktRadioButtonDarkMode.BorderEdges.TopRight = false;
+            this.ktRadioButtonDarkMode.BorderRadius = 0.999F;
+            this.ktRadioButtonDarkMode.BorderStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.ktRadioButtonDarkMode.BorderStyle_Checked = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.ktRadioButtonDarkMode.BorderWidth = 2F;
+            this.ktRadioButtonDarkMode.Checked = true;
+            this.ktRadioButtonDarkMode.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ktRadioButtonDarkMode.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
+            this.ktRadioButtonDarkMode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.ktRadioButtonDarkMode.Foreground = new KimTools.WinForms.KtColor("$Content", 0.4F, 100);
+            this.ktRadioButtonDarkMode.Foreground_Checked = KimTools.WinForms.KtColor.CONTENT;
+            this.ktRadioButtonDarkMode.Icon = "tabler.solid.moon_filled";
+            this.ktRadioButtonDarkMode.Icon_Checked = "tabler.solid.moon_filled";
+            this.ktRadioButtonDarkMode.IconColor = KimTools.WinForms.KtColor.Empty;
+            this.ktRadioButtonDarkMode.IconColor_Checked = KimTools.WinForms.KtColor.Empty;
+            this.ktRadioButtonDarkMode.IconSize = 16;
+            this.ktRadioButtonDarkMode.IconStroke = 2.5D;
+            this.ktRadioButtonDarkMode.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ktRadioButtonDarkMode.Location = new System.Drawing.Point(8, 5);
+            this.ktRadioButtonDarkMode.Name = "ktRadioButtonDarkMode";
+            this.ktRadioButtonDarkMode.Size = new System.Drawing.Size(80, 42);
+            this.ktRadioButtonDarkMode.TabIndex = 7;
+            this.ktRadioButtonDarkMode.TabStop = true;
+            this.ktRadioButtonDarkMode.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ktRadioButtonDarkMode.UseVisualStyleBackColor = false;
+            // 
+            // ktPanel1
+            // 
+            this.ktPanel1.Background = ((KimTools.WinForms.KtBrushNone)(KimTools.WinForms.KtBrush.None));
+            this.ktPanel1.Border = ((KimTools.WinForms.KtBrushNone)(KimTools.WinForms.KtBrush.None));
+            this.ktPanel1.BorderRadius = 24F;
+            this.ktPanel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.ktPanel1.BorderWidth = 1.5F;
+            this.ktPanel1.Controls.Add(this.ktLabel1);
+            this.ktPanel1.Controls.Add(this.ktPictureBox2);
+            this.ktPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ktPanel1.Foreground = KimTools.WinForms.KtColor.Empty;
+            this.ktPanel1.Location = new System.Drawing.Point(10, 68);
+            this.ktPanel1.Name = "ktPanel1";
+            this.ktPanel1.Padding = new System.Windows.Forms.Padding(10);
+            this.ktPanel1.PatternColor = KimTools.WinForms.KtColor.Empty;
+            this.ktPanel1.Size = new System.Drawing.Size(179, 50);
+            this.ktPanel1.TabIndex = 4;
+            // 
+            // ktLabel1
+            // 
+            this.ktLabel1.Align = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ktLabel1.Auto = false;
+            this.ktLabel1.Background = KimTools.WinForms.KtColor.Empty;
+            this.ktLabel1.Color = KimTools.WinForms.KtColor.Empty;
+            this.ktLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ktLabel1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ktLabel1.Location = new System.Drawing.Point(51, 10);
+            this.ktLabel1.Name = "ktLabel1";
+            this.ktLabel1.Size = new System.Drawing.Size(118, 30);
+            this.ktLabel1.TabIndex = 1;
+            this.ktLabel1.Text = "  Kim Too";
+            // 
+            // ktPictureBox2
+            // 
+            this.ktPictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.ktPictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ktPictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("ktPictureBox2.Image")));
+            this.ktPictureBox2.ImageBrush = ((KimTools.WinForms.KtBrushNone)(KimTools.WinForms.KtBrush.None));
+            this.ktPictureBox2.Location = new System.Drawing.Point(10, 10);
+            this.ktPictureBox2.Name = "ktPictureBox2";
+            this.ktPictureBox2.Size = new System.Drawing.Size(41, 30);
+            this.ktPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ktPictureBox2.TabIndex = 0;
+            this.ktPictureBox2.TabStop = false;
+            // 
             // ktPanelHeader
             // 
             this.ktPanelHeader.Background = ((KimTools.WinForms.KtBrushNone)(KimTools.WinForms.KtBrush.None));
@@ -477,134 +605,6 @@
             this.ktPanelContent.Size = new System.Drawing.Size(769, 559);
             this.ktPanelContent.TabIndex = 6;
             // 
-            // ktPanel1
-            // 
-            this.ktPanel1.Background = ((KimTools.WinForms.KtBrushNone)(KimTools.WinForms.KtBrush.None));
-            this.ktPanel1.Border = ((KimTools.WinForms.KtBrushNone)(KimTools.WinForms.KtBrush.None));
-            this.ktPanel1.BorderRadius = 24F;
-            this.ktPanel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.ktPanel1.BorderWidth = 1.5F;
-            this.ktPanel1.Controls.Add(this.ktLabel1);
-            this.ktPanel1.Controls.Add(this.ktPictureBox2);
-            this.ktPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ktPanel1.Foreground = KimTools.WinForms.KtColor.Empty;
-            this.ktPanel1.Location = new System.Drawing.Point(10, 68);
-            this.ktPanel1.Name = "ktPanel1";
-            this.ktPanel1.Padding = new System.Windows.Forms.Padding(10);
-            this.ktPanel1.PatternColor = KimTools.WinForms.KtColor.Empty;
-            this.ktPanel1.Size = new System.Drawing.Size(179, 50);
-            this.ktPanel1.TabIndex = 4;
-            // 
-            // ktPictureBox2
-            // 
-            this.ktPictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.ktPictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ktPictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("ktPictureBox2.Image")));
-            this.ktPictureBox2.ImageBrush = ((KimTools.WinForms.KtBrushNone)(KimTools.WinForms.KtBrush.None));
-            this.ktPictureBox2.Location = new System.Drawing.Point(10, 10);
-            this.ktPictureBox2.Name = "ktPictureBox2";
-            this.ktPictureBox2.Size = new System.Drawing.Size(41, 30);
-            this.ktPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ktPictureBox2.TabIndex = 0;
-            this.ktPictureBox2.TabStop = false;
-            // 
-            // ktLabel1
-            // 
-            this.ktLabel1.Align = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ktLabel1.Auto = false;
-            this.ktLabel1.Background = KimTools.WinForms.KtColor.Empty;
-            this.ktLabel1.Color = KimTools.WinForms.KtColor.Empty;
-            this.ktLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ktLabel1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ktLabel1.Location = new System.Drawing.Point(51, 10);
-            this.ktLabel1.Name = "ktLabel1";
-            this.ktLabel1.Size = new System.Drawing.Size(118, 30);
-            this.ktLabel1.TabIndex = 1;
-            this.ktLabel1.Text = "  Kim Too";
-            // 
-            // ktPanel7
-            // 
-            this.ktPanel7.Background = new KimTools.WinForms.KtBrushSolid(KimTools.WinForms.KtColor.BASE_2);
-            this.ktPanel7.Border = new KimTools.WinForms.KtBrushGradient(KimTools.WinForms.KtColor.BASE_1, KimTools.WinForms.KtColor.BASE_3);
-            this.ktPanel7.BorderRadius = 0.999F;
-            this.ktPanel7.BorderStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.ktPanel7.BorderWidth = 1.5F;
-            this.ktPanel7.Controls.Add(this.ktRadioButtonLightMode);
-            this.ktPanel7.Controls.Add(this.ktRadioButtonDarkMode);
-            this.ktPanel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ktPanel7.Foreground = KimTools.WinForms.KtColor.Empty;
-            this.ktPanel7.Location = new System.Drawing.Point(10, 10);
-            this.ktPanel7.Name = "ktPanel7";
-            this.ktPanel7.Padding = new System.Windows.Forms.Padding(8, 5, 8, 5);
-            this.ktPanel7.PatternColor = KimTools.WinForms.KtColor.Empty;
-            this.ktPanel7.Size = new System.Drawing.Size(179, 52);
-            this.ktPanel7.TabIndex = 5;
-            // 
-            // ktRadioButtonLightMode
-            // 
-            this.ktRadioButtonLightMode.BackColor = System.Drawing.Color.Transparent;
-            this.ktRadioButtonLightMode.Background_Checked = new KimTools.WinForms.KtBrushSolid(KimTools.WinForms.KtColor.BASE_3);
-            this.ktRadioButtonLightMode.Border = new KimTools.WinForms.KtBrushSolid(System.Drawing.Color.Transparent);
-            this.ktRadioButtonLightMode.Border_Checked = new KimTools.WinForms.KtBrushSolid(System.Drawing.Color.Transparent);
-            this.ktRadioButtonLightMode.BorderEdges.BottomLeft = false;
-            this.ktRadioButtonLightMode.BorderEdges.TopLeft = false;
-            this.ktRadioButtonLightMode.BorderRadius = 0.999F;
-            this.ktRadioButtonLightMode.BorderStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.ktRadioButtonLightMode.BorderStyle_Checked = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.ktRadioButtonLightMode.BorderWidth = 2F;
-            this.ktRadioButtonLightMode.Dock = System.Windows.Forms.DockStyle.Right;
-            this.ktRadioButtonLightMode.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
-            this.ktRadioButtonLightMode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(147)))), ((int)(((byte)(185)))));
-            this.ktRadioButtonLightMode.Foreground = new KimTools.WinForms.KtColor("$Content", 0.4F, 100);
-            this.ktRadioButtonLightMode.Foreground_Checked = KimTools.WinForms.KtColor.CONTENT;
-            this.ktRadioButtonLightMode.Icon = "hero.outline.sun";
-            this.ktRadioButtonLightMode.Icon_Checked = "hero.outline.sun";
-            this.ktRadioButtonLightMode.IconColor = KimTools.WinForms.KtColor.Empty;
-            this.ktRadioButtonLightMode.IconColor_Checked = KimTools.WinForms.KtColor.Empty;
-            this.ktRadioButtonLightMode.IconSize = 16;
-            this.ktRadioButtonLightMode.IconStroke = 2.5D;
-            this.ktRadioButtonLightMode.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ktRadioButtonLightMode.Location = new System.Drawing.Point(94, 5);
-            this.ktRadioButtonLightMode.Name = "ktRadioButtonLightMode";
-            this.ktRadioButtonLightMode.Size = new System.Drawing.Size(77, 42);
-            this.ktRadioButtonLightMode.TabIndex = 8;
-            this.ktRadioButtonLightMode.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ktRadioButtonLightMode.UseVisualStyleBackColor = false;
-            this.ktRadioButtonLightMode.CheckedChanged += new System.EventHandler(this.ktRadioButtonLightMode_CheckedChanged);
-            // 
-            // ktRadioButtonDarkMode
-            // 
-            this.ktRadioButtonDarkMode.BackColor = System.Drawing.Color.Transparent;
-            this.ktRadioButtonDarkMode.Background_Checked = new KimTools.WinForms.KtBrushSolid(KimTools.WinForms.KtColor.BASE_3);
-            this.ktRadioButtonDarkMode.Border = new KimTools.WinForms.KtBrushSolid(System.Drawing.Color.Transparent);
-            this.ktRadioButtonDarkMode.Border_Checked = new KimTools.WinForms.KtBrushSolid(System.Drawing.Color.Transparent);
-            this.ktRadioButtonDarkMode.BorderEdges.BottomRight = false;
-            this.ktRadioButtonDarkMode.BorderEdges.TopRight = false;
-            this.ktRadioButtonDarkMode.BorderRadius = 0.999F;
-            this.ktRadioButtonDarkMode.BorderStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.ktRadioButtonDarkMode.BorderStyle_Checked = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.ktRadioButtonDarkMode.BorderWidth = 2F;
-            this.ktRadioButtonDarkMode.Checked = true;
-            this.ktRadioButtonDarkMode.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ktRadioButtonDarkMode.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
-            this.ktRadioButtonDarkMode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ktRadioButtonDarkMode.Foreground = new KimTools.WinForms.KtColor("$Content", 0.4F, 100);
-            this.ktRadioButtonDarkMode.Foreground_Checked = KimTools.WinForms.KtColor.CONTENT;
-            this.ktRadioButtonDarkMode.Icon = "tabler.solid.moon_filled";
-            this.ktRadioButtonDarkMode.Icon_Checked = "tabler.solid.moon_filled";
-            this.ktRadioButtonDarkMode.IconColor = KimTools.WinForms.KtColor.Empty;
-            this.ktRadioButtonDarkMode.IconColor_Checked = KimTools.WinForms.KtColor.Empty;
-            this.ktRadioButtonDarkMode.IconSize = 16;
-            this.ktRadioButtonDarkMode.IconStroke = 2.5D;
-            this.ktRadioButtonDarkMode.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ktRadioButtonDarkMode.Location = new System.Drawing.Point(8, 5);
-            this.ktRadioButtonDarkMode.Name = "ktRadioButtonDarkMode";
-            this.ktRadioButtonDarkMode.Size = new System.Drawing.Size(80, 42);
-            this.ktRadioButtonDarkMode.TabIndex = 7;
-            this.ktRadioButtonDarkMode.TabStop = true;
-            this.ktRadioButtonDarkMode.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ktRadioButtonDarkMode.UseVisualStyleBackColor = false;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -615,16 +615,16 @@
             this.Controls.Add(this.ktPanelSidebar);
             this.Name = "MainForm";
             this.Text = "My  KimTools App";
-            this.ktPanelSidebar.ResumeLayout(false);
+             this.ktPanelSidebar.ResumeLayout(false);
             this.ktPanelMenu.ResumeLayout(false);
             this.ktPanelFooter.ResumeLayout(false);
+            this.ktPanel7.ResumeLayout(false);
+            this.ktPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ktPictureBox2)).EndInit();
             this.ktPanelHeader.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ktPictureBox1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ktPanelContent.ResumeLayout(false);
-            this.ktPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ktPictureBox2)).EndInit();
-            this.ktPanel7.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

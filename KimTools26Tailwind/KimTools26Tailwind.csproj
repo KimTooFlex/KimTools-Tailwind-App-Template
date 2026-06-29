@@ -36,8 +36,9 @@
     <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
       <HintPath>..\packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
     </Reference>
-    <Reference Include="KimTools.WinForms, Version=26.6.22.11501, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\KimTools.WinForms.26.6.22\lib\net48\KimTools.WinForms.dll</HintPath>
+    <Reference Include="KimTools.WinForms, Version=26.6.29.11853, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\KimTools.WinForms.26.6.29\lib\net48\KimTools.WinForms.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
